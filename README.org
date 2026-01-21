@@ -5,7 +5,8 @@ The only change I've made so far is to update the .cls file from the 2020 versio
 
 /Notes:/
 - You will need to install the .cls file manually. I did this with =cp ~/.emacs.d/straight/repos/ox-jdf/tex/latex/jdf ~/.texmf/tex/latex/=.
-- As of right now, I am having issues with inline citations (generating wrong) and the bibliography (not generating).
+- The original author recommended using latexmk (later in this readme) for compilation. Footstomp on that. I tried pdflatex, which gave an error recommending xelatex, which I then tried. Xelatex produced some weird formatting errors, and I re-read the readme and switched to latexmk. My compilation process is defined as =(setq org-latex-pdf-process '("latexmk -f -pdf %f"))=.
+- As of right now, I am having issues with inline citations (generating wrong) and the bibliography (not generating). This may be a function of not using biber/bibtex in my compilation process - tbd.
 
 ** About
 
