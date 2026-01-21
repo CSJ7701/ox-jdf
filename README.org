@@ -1,5 +1,8 @@
 #+title: Joyner Document Format Org Template
 
+** Fork
+The only change I've made so far is to update the .cls file from the 2020 version to the most recent (2022).
+
 ** About
 
 This repo is an Emacs Org-Mode recreation of the Joyner Document Format template used in several OMSCS classes. The /official/ LaTeX class can be found on github, at: https://github.com/iamjakewarner/jdf. This project simply allows users to satisfy the style requirements of the Joyner Document Format (JDF) while leveraging the powerful tools that Org-Mode has to offer. Here are a few reasons why using =ox-jdf= and =org-mode= could be useful to you:
